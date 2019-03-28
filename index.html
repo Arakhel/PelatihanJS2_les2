@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+  </head>
+  <body>
+    <h1>This is a static template, there is no bundler or bundling involved!</h1>
+    <script type=text/javascript>
+      console.log("5" == 5); // akan menampilkan true
+      console.log("5" === 5);
+
+      var myHeight = 172; // isi dengan angka berapapun
+
+      myHeight > 160
+      ? console.log(" hore, saya bisa naik roller coaster! ")
+      : console.log(" yasudah, saya naik komedi putar saja deh. ");
+
+      console.log(" Sudah sore. Pulang yuk! ");
+
+      var ownKTP = false;
+      var ownSIM = false;
+      var ownKTM = true;
+
+      if (ownKTP || ownSIM || ownKTM) {
+        console.log(" saya bisa beli tiket ");
+      } else {
+        console.log(" saya tidak bisa beli tiket ");
+      }
+    </script>
+  </body>
+</html>
